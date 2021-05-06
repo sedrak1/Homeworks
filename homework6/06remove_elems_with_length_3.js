@@ -7,4 +7,5 @@ function remove_elements_with_length_less_3(arr){
     }
     return res_arr
 }
+
 console.log(remove_elements_with_length_less_3(["kia", "tesla", "bmw", "mercedes"]))
