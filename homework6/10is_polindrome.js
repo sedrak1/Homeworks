@@ -6,4 +6,5 @@ function is_polindrome(str){
     }
     return true
 }
+
 console.log(is_polindrome("212"))
