@@ -7,4 +7,5 @@ function is_isogram(str){
     }
     return true
 }
+
 console.log(is_isogram("asdd"))
