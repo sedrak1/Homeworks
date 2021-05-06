@@ -7,6 +7,7 @@ function filter_falsy_values(arr){
     }
     return res_arr
 }
+
 const values = [null, true, {}, { name: "Elon" }, "", NaN, 0];
 console.log(filter_falsy_values(values)) ; 
 console.log(filter_falsy_values(["hello", 1233, []])) ;
