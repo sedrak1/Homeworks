@@ -9,4 +9,5 @@ function largest_product_adjacent_elements(arr){
         }
     }
 }
+
 console.log(largest_product_adjacent_elements([-1,3,10,0]))
