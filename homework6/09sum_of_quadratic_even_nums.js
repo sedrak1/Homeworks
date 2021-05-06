@@ -6,7 +6,7 @@ function is_quadratic(num){
         return false
     }
 }
-console.log(is_quadratic(-9))
+
 function sum_of_even_quadratic_nums(arr){
     let res = 0
     for(let i = 0; i< arr.length; i++){
