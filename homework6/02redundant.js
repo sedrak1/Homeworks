@@ -4,4 +4,4 @@ const redundant = (str) => {
     }
     return str_ret_fn
 }
-console.log(redundant("apple")()) ;
+console.log(redundant("appple")()) ;
