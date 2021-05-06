@@ -15,4 +15,5 @@ function sum_of_even_quadratic_nums(arr){
     }
     return res
 }
+
 console.log(sum_of_even_quadratic_nums([]))
