@@ -3,6 +3,7 @@ const add_suffix = (suffix) => {
         return str+suffix
     }
 }
+
 add_ly = add_suffix("ly");
 add_less = add_suffix("less");
 
