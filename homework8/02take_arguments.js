@@ -4,4 +4,4 @@ function sum() {
         return sum + current;
     });
 }
-console.log(sum(1,2,3,4,-1))
+console.log(sum(1,2,3,4))

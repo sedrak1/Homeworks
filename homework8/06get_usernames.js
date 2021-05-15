@@ -9,7 +9,6 @@ const users = [
     },
 ]
 function get_usernames(arr){
-    
     return arr.map((el) => {return el.username })
 }
 console.log(get_usernames(users))
