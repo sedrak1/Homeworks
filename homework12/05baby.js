@@ -30,7 +30,7 @@ Baby.prototype.play = function(){
     return this.favorite_toy
 }
 
-baby = new Baby("Vrezh", 22, "macbook")
+baby = new Baby("Set", 22, "macbook")
 console.log(baby.eat("asd"))
 console.log(baby.stomach)
 console.log(baby.name)
