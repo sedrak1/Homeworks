@@ -1,0 +1,102 @@
+body {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: "Varela Round", sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: tomato;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.timer {
+    display: inline-flex;
+    justify-content: center;
+    font-size: 6vw;
+    margin-bottom: 3vw;
+}
+.buttonsDiv {
+    display: flex;
+    justify-content: center;
+}
+.buttons {
+    font-family: "Michroma", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 5% 10% 5% 10%;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    border-radius: 8px;
+    border: none;
+    transition: 0.3s;
+}
+
+.buttons:hover {
+    background-color: rgb(194, 194, 194);
+    cursor: pointer;
+}
+
+.setTimerButton {
+    font-family: "Michroma", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 3vw;
+    padding: 5% 10% 5% 10%;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    border-radius: 8px;
+    border: none;
+    transition: 0.3s;
+}
+.setTimerButton:hover {
+    background-color: rgb(194, 194, 194);
+    cursor: pointer;
+}
+.hours {
+    font-family: "Michroma", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 5% 10% 5% 10%;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    border-radius: 8px;
+    border: none;
+    font-size: 2vw;
+}
+.minutes {
+    font-family: "Michroma", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 5% 10% 5% 10%;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    border-radius: 8px;
+    border: none;
+    font-size: 2vw;
+}
+.seconds {
+    font-family: "Michroma", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 5% 10% 5% 10%;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    border-radius: 8px;
+    border: none;
+    font-size: 2vw;
+}
+.setTimer {
+    display: flex;
+    justify-content: center;
+}
+.timerBlock {
+    display: block;
+    justify-content: center;
+}
