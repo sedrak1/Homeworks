@@ -21,6 +21,12 @@ searchButton.addEventListener("click", () => {
 function render(obj) {
     let searchedCountry = document.createElement("div");
     searchedCountry.className = "searchedCountry";
+    let link = obj.name;
+    searchedCountry.addEventListener("click", () => {
+        window.open(`https://en.wikipedia.org/wiki/${link}`, "_blank");
+        // location.target = "_blank";
+        // location.href = `https://en.wikipedia.org/wiki/${link}`;
+    });
     let countryName = document.createElement("p");
     countryName.textContent = "Country - " + obj.name;
     countryName.className = "countryDescription";
